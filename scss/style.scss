@@ -1040,7 +1040,7 @@ img {
         a {
             display: block;
             overflow: hidden;
-            cursor: url(img/core-img/zoom.png), auto;
+            cursor: url(https://s3.amazonaws.com/icm-ca/zoom.png), auto;
             img {
                 @include trans-duration(800ms);
             }

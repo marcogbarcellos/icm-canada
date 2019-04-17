@@ -862,7 +862,7 @@ img {
     .gallery-area .single-gallery-area a {
       display: block;
       overflow: hidden;
-      cursor: url(img/core-img/zoom.png), auto; }
+      cursor: url(https://s3.amazonaws.com/icm-ca/zoom.png), auto; }
       .gallery-area .single-gallery-area a img {
         -webkit-transition-duration: 800ms;
         transition-duration: 800ms; }
@@ -1863,6 +1863,51 @@ img {
   .contact-content-area .col-12:last-child .contact-content::after {
     display: none; }
   .contact-content-area .col-12:last-child .contact-content:last-child {
+    margin-bottom: 0; }
+
+/* :: 22.0 Youtube Info Area CSS */
+.contact-content-area-youtube {
+  z-index: 50;
+  padding: 30px;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15);
+  top: -100px;
+  background-color: #ffffff; }
+  .contact-content-area-youtube .contact-content {
+    z-index: 2;
+    text-align: center; }
+    @media only screen and (max-width: 767px) {
+      .contact-content-area-youtube .contact-content {
+        margin-bottom: 50px; } }
+    .contact-content-area-youtube .contact-content h4 {
+      font-weight: 600;
+      margin-bottom: 15px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .contact-content-area-youtube .contact-content h4 {
+          font-size: 18px; } }
+    .contact-content-area-youtube .contact-content p {
+      color: #636363;
+      font-size: 14px;
+      margin-bottom: 5px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .contact-content-area-youtube .contact-content p {
+          font-size: 12px; } }
+      .contact-content-area-youtube .contact-content p:last-child {
+        margin-bottom: 0; }
+    .contact-content-area-youtube .contact-content::after {
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      background-color: #d2d2d5;
+      content: '';
+      right: -15px;
+      top: 0;
+      z-index: 10; }
+      @media only screen and (max-width: 767px) {
+        .contact-content-area-youtube .contact-content::after {
+          display: none; } }
+  .contact-content-area-youtube .col-12:last-child .contact-content::after {
+    display: none; }
+  .contact-content-area-youtube .col-12:last-child .contact-content:last-child {
     margin-bottom: 0; }
 
 .contact-form-area label {
