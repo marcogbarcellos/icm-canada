@@ -1,0 +1,19 @@
+{
+  "name": "icm-canada",
+  "version": "1.0.0",
+  "description": "mcc toronto church website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcogbarcellos/icm-canada.git"
+  },
+  "author": "marcogbarcellos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcogbarcellos/icm-canada/issues"
+  },
+  "homepage": "https://github.com/marcogbarcellos/icm-canada#readme"
+}
